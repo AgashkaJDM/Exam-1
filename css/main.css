@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+.albert-sans {
+    font-family: "Albert Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+}
+
+.center-font {
+    font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+}
+
+.bg-image-1 {
+    background-image: url("../img/01.jpeg");
+    background-color: white;
+    background-repeat: no-repeat;
+    background-attachment: initial;
+    background-position: center;
+    background-size: cover;
+}
+
+.bg-image-2 {
+    background-image: url("../img/15.png");
+    background-color: white;
+    background-repeat: no-repeat;
+    background-attachment: initial;
+    background-position: center;
+    background-size: cover;
+}
+
+.bg-image-3 {
+    background-image: url("../img/13.png");
+    background-color: white;
+    background-repeat: no-repeat;
+    background-attachment: initial;
+    background-position: center;
+    background-size: cover;
+}
+
+.bg-image-4 {
+    background-image: url("../img/5.png");
+    background-color: white;
+    background-repeat: no-repeat;
+    background-attachment: initial;
+    background-position: center;
+    background-size: cover;
+}
+
+.bg-image-5 {
+    background-image: url("../img/17.png");
+    background-color: white;
+    background-repeat: no-repeat;
+    background-attachment: initial;
+    background-position: center;
+    background-size: cover;
+}
+
+.bg-shadow {
+    background-color: rgba(228, 222, 222, 0.274);
+}
+
+a.hover-1 {
+    position: relative;
+    color: white !important;
+}
+
+a.hover-1:hover {
+    color: red !important;
+}
+
+.card {
+    cursor: pointer;
+    transition: ease 0.5s;
+}
+
+.card:hover {
+    transform: translateY(-15px);
+}
+
+.card1 {
+    cursor: pointer;
+    transition: ease 0.7s;
+}
+
+.card1:hover {
+    transform: translateY(-10px);
+}

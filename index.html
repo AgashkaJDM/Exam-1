@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/aos.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/fancybox.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/splide.min.css">
+    <link rel="stylesheet" href="css/icons/bootstrap-icons.min.css">
+</head>
+
+
+
+<body class="albert-sans">
+    <div class="bg-image-1">
+        <div class="container-xxl pb-4">
+            <div class="row pt-3">
+                <div class="col text-start albert-sans ps-5 h4 text-start" style="color: #BABBBE;">
+                    logo
+                </div>
+                <div class="col text-end albert-sans text-end h5 pe-5 text-light">
+                    HOME
+                </div>
+            </div>
+            <div class="py-5 my-5 row h2 center-font justify-content-center">
+                <div class="py-5 my-5 col-3">
+                    <div class="bg-light text-center py-2 fw-normal" style="line-height: 1.5rem;">
+                        HAVE A NICE DAY <br> AND...
+                    </div>
+                    <div class="bg-light text-center fw-semibold py-1 mb-5 mt-2">
+                        YUMMY BREAKFAST :)
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="js/aos.js"></script>
+    <script src="js/bootstrap.bundle.min.js "></script>
+    <script src="js/splide.min.js "></script>
+    <script src="js/fancybox.umd.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            var splide = new Splide(".splide", {
+                type: "loop",
+                autoplay: 1,
+                arrows: 1,
+                interval: 3e3,
+                pauseOnHover: 0,
+                perMove: 1,
+                perPage: 1,
+                gap: "1.5rem",
+            });
+            splide.mount();
+        });
+        document.addEventListener("DOMContentLoaded", function () {
+            var splide = new Splide("#splide2", {
+                type: "loop",
+                autoplay: 1,
+                arrows: 1,
+                interval: 3e3,
+                pauseOnHover: 0,
+                perMove: 1,
+                perPage: 1,
+                gap: "1.5rem",
+            });
+            splide.mount();
+        });
+        document.addEventListener("DOMContentLoaded", function () {
+            var splide = new Splide("#splide3", {
+                type: "loop",
+                autoplay: 1,
+                arrows: 1,
+                interval: 3e3,
+                pauseOnHover: 0,
+                perMove: 1,
+                perPage: 1,
+                gap: "1.5rem",
+            });
+            splide.mount();
+        });
+        document.addEventListener("DOMContentLoaded", function () {
+            var splide = new Splide("#splide4", {
+                type: "loop",
+                autoplay: 1,
+                arrows: 1,
+                interval: 3e3,
+                pauseOnHover: 0,
+                perMove: 1,
+                perPage: 1,
+                gap: "1.5rem",
+            });
+            splide.mount();
+        });
+    </script>
+    <script>
+
+        AOS.init({
+            once: true,
+        });
+
+
+    </script>
+    <script>
+        Fancybox.bind("[data-fancybox]", {
+            'animated': true,
+        });
+    </script>
+</body>
+
+</html>
