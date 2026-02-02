@@ -10516,6 +10516,12 @@ fieldset:disabled .btn {
   .pe-lg-5 {
     padding-right: 3rem !important;
   }
+  .pe-lg-6 {
+    padding-right: 4.5rem !important;
+  }
+  .pe-lg-7 {
+    padding-right: 7rem !important;
+  }
   .pb-lg-0 {
     padding-bottom: 0 !important;
   }
