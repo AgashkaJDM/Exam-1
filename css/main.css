@@ -1,11 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,700;1,700&family=Oswald:wght@300&display=swap');
 
 .albert-sans {
     font-family: "Albert Sans", sans-serif;
     font-optical-sizing: auto;
     font-weight: normal;
+    font-style: normal;
+}
+
+.read {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
     font-style: normal;
 }
 
@@ -33,7 +41,7 @@
 }
 
 .bg-image-2 {
-    background-image: url("../img/15.png");
+    background-image: url("../img/03.jpeg");
     background-color: white;
     background-repeat: no-repeat;
     background-attachment: initial;
